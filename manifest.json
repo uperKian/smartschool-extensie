@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Smartschool Aanpassing",
+  "version": "1.0",
+  "description": "Voegt een knop toe voor website aanvragen in Smartschool.",
+  "content_scripts": [
+    {
+      "matches": ["https://smartschool.*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
